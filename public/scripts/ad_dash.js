@@ -72,11 +72,19 @@ function show_bed_reqs_hosp(id) {
                         <button type="button" style="margin: 1%;" class="btn btn-primary" id="${"bedreq_"+item.id.toString()}">Mark as Rejected</button>`
                     );
                     let idstr = "#bedreq"+item.id.toString();
+
                     console.log(idstr);
                     $(idstr).click(function(e){
                         e.preventDefault();
-                        let instructions = $("#instructions "+item.id.toString()).val();
+                        console.log("hello console");
+                        let st = "#instructions_"+item.id.toString();
+                        console.log(st);
+                        let instructions = $(st).val();
+                        console.log(instructions);
+
+                        // let instructions = $("#instructions "+item.id.toString()).val();
                         $.post('/complete_bed', {email: item.email, instructions, id: item.id}, (data, status)=>{
+                            console.log("in post req");
                             console.log(status, data);
                             if(status=="success"){
                                 alert("Done!");
