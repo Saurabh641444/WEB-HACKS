@@ -101,7 +101,7 @@ function display_hospitals(){
         })
     }
 
-    const str1 = '<div class="col-lg-3 col-md-5 col-sm-6 col-xs-12"> <div class="card"> <img class="card-img-top" src="./Image/hosp_icon.png" alt="Card image"> <div class="card-body"> <h5 class="card-title">';
+    const str1 = '<div class="col-lg-3 col-md-5 col-sm-6 col-xs-12"> <div class="card"> <img class="card-img-top" src="./image/hosp_icon.png" alt="Card image"> <div class="card-body"> <h5 class="card-title">';
 
     getData().then(()=>{
         // $('#hosp-list-1').empty();
