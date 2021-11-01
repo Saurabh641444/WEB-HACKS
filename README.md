@@ -7,7 +7,9 @@ This project is made in Web-Hack which is organised by DSC VIT,Pune.
 2. Vedant Jore
 
 ## Check out the demo of project
-[](https://youtu.be/yFVZrSFoxt4)
+![Demo video](https://youtu.be/yFVZrSFoxt4)
+
+website:- https://coviddefender.herokuapp.com/
 
 ## Project Description:-
 ## Domain:- Healthcare
