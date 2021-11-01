@@ -1,9 +1,13 @@
 # WEB-HACKS
 This project is made in Web-Hack which is organised by DSC VIT,Pune.
+<img src="public/image/Covid1.png" alt=""/>
 
 ## Group members
 1. Saurabh Jejurkar
 2. Vedant Jore
+
+## Check out the demo of project
+[]()
 
 ## Project Description:-
 ## Domain:- Healthcare
@@ -26,3 +30,8 @@ We have seen covid-19 outbreak in India in April 2021, it was very dangerous tim
 2. Patients can book beds.
 3. Patient is able to check status of his/her booking status.
 4. Patient is able to take appoinment for covid-19 vaccination.
+
+<img src="public/image/covid3.png" alt=""/>
+
+### Website Look up
+<img src="public/image/covid4.png" alt=""/>
